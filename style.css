@@ -1,0 +1,103 @@
+:root {
+    --color-white: #ffffff;
+    --color-light: #f0eff5;
+    --color-gray-light: #86848c;
+    --color-gray-dark: #56555e;
+    --color-dark:#27282f;
+    --color-primary: rgb(71, 7, 234);
+    --color-success: rgb(34, 202, 75);
+    --color-danger: rgb(255, 67, 54);
+    --color-warning: rgb(234, 181, 7);
+    --color-purple:rgb(160, 99, 245);
+   
+    --color-primary-light: rgba(71, 7, 234, 0.2);
+    --color-success-light: rgba(34, 202, 75, 0.2);
+    --color-danger-light: rgba(255, 67, 54, 0.2);
+    --color-purple-light: rgba(160, 99, 245, 0.2);
+   
+    --card-padding: 1.6rem;
+    --padding-1: 1rem;
+    --padding-2: 8px;
+   
+   --card-border-radius: 1.6rem;
+   --border-radius-1: 1rem;
+   --border-radius-2: 6px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+    background: #1529df;
+}
+
+h2 {
+    margin-bottom: 1.9rem;
+    padding-left: 15%;
+    color: #fff;
+    width: 10rem;
+    font-size: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    gap: 1rem;
+    border-radius: 7px;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+textarea {
+    height: 6rem;
+    border-radius: 7px;
+}
+
+textarea:hover {
+    cursor: pointer;
+    background: yellow;
+    transition: 0.8s;
+    border-radius: 7px;
+}
+
+
+
+
+button {
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: #ffffff;
+    color: #1529df;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 5px;
+    margin-bottom: 20%;
+}
+
+h5 {
+    position: relative;
+    background-color: #1529df;
+    border-radius: 5px;
+    padding-left: 1.4rem;
+    color: white;
+}
